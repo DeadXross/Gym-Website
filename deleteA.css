@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.heading { 
+    color: rgb(255, 255, 255); position: absolute; top: 40%; width: 90%; text-align: center;text-shadow: 3px 3px grey ; 
+}
+.c4
+{
+    width: 500px;
+    height: 300px;
+    margin:100px auto;
+    background : rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 15%;
+    margin-left: 420px;
+    border: 3px solid black
+}
+.c4 h1
+{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid;
+    
+}
+.c4 form
+{
+    margin-left: 130px;
+    font-family: sans-serif;
+   
+    overflow: hidden;
+    width: 400px;
+    font-size: large;
+
+}
+

@@ -1,0 +1,243 @@
+body{
+    background-color: #030105;
+    font-family: Fenice Regular Oblique, the Seinfeld font;
+    
+}
+
+#container{
+    background-color: 030105;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#top{
+    background-color: black;
+    vertical-align: middle;
+    height: 50px;
+    position: relative;
+    
+}
+
+.logo{
+    background-color: teal;
+    float: left;
+    width: 197px;
+    height: 50px;
+    background: url(LOGO.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+}
+
+
+.about{
+    background-color: black;
+    float: right;
+    width: 663px;
+    padding: 0px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+   
+}
+        
+
+        .button{
+          font-family: "Poppins", sans-serif;
+        }
+        
+        .dropdown{
+          height: 50px;
+          width: 311px;
+          float: left;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+        
+        .projects{
+          position: relative;
+          
+        }
+        
+        .projects ul{
+          margin-top: 10px;
+          position: absolute;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          align-items: center;
+          width: 160px;
+          height: 160px;
+          background: white;
+          left: 0px;
+          list-style: none;
+          opacity: 0;
+          pointer-events: none;
+          transform: translateY(-2px);
+          transition: all 0.1s ease;
+        }
+
+        .projects li{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+        }
+        
+                
+        .projects a{
+          color: black;
+          text-decoration: none;
+        }
+        
+        .dropdown button,
+        .home {
+          background: none;
+          text-decoration: none;
+          border: none;
+          color: white;
+          font-size: 18px;
+          cursor: pointer;
+        }
+        
+        .projects button:focus + ul{
+          opacity: 1;
+          pointer-events: all;
+          transform: translateY(0px);
+        }
+        
+
+.about2{
+     background: none;
+     float: right;
+     height: 50px;
+     width: 311px;
+     line-height: 50px;
+     color: white;
+     position: relative;
+     }
+
+
+.info{
+    margin: 0 auto;
+    width: 360px;
+    margin-top: 0 auto;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+        
+
+}
+
+
+.btn11{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer; 
+    margin: 12px 0;
+}
+
+
+
+#fcontainer{
+  clear: both;
+  width: 200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  background: black;
+  background-size: cover;
+}
+
+.login-box{ 
+  width: 280px;
+  position: relative; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%,-50%); 
+  color: white; 
+}
+
+.login-box h1{ 
+  float: left; 
+  font-size: 32px; 
+  border-bottom: 4px solid #ffffff; 
+  margin-bottom: 50px; 
+  padding: 20px 0;
+}
+
+.textbox{ 
+  width: 100%; 
+  overflow: hidden; 
+  font-size: 15px; 
+  padding: 10px 0; 
+  margin: 8px 0; 
+  border-bottom: 1px solid #ffffff; 
+}
+
+.textbox i { 
+  width: 26px; 
+  float: left; 
+  text-align: center; 
+}
+
+.textbox input{ 
+  border: none; 
+  outline: none; 
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+  } 
+
+.container11{
+  padding: 4px;
+}
+
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer; 
+  margin: 12px 0;
+}
+.btn1{
+  width: 100%;
+  background: none;
+  border: 2px solid #cdc7d9;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer; 
+  margin: 2px 0;
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    
+  }
